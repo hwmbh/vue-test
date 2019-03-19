@@ -1,19 +1,17 @@
 <template>
   <div id="app">
-    
     <router-view />
   </div>
 </template>
 <script>
-import axios from 'axios'
-export default {
-  mounted () {
-    axios.get('/inviteActivity/skiing201811/queryGameIndex').then(res => {
-      console.log(res)
-    })
-  }
-}
-
+// import axios from 'axios'
+// export default {
+//   mounted () {
+//     axios.get('/inviteActivity/skiing201811/queryGameIndex').then(res => {
+//       console.log(res)
+//     })
+//   }
+// }
 </script>
 <style lang="scss">
 body{margin:0px;}

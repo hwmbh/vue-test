@@ -33,16 +33,6 @@
                     <el-tree :data="data" :props="defaultProps" @node-click="handleNodeClick"></el-tree>
                 </el-aside>
                 <el-main>
-                    <!-- <el-row>
-                        <el-col class="tar" :span="24">
-                          <el-form-item>
-                            <el-input v-model="requestNo" placeholder="请求流水号" clearable></el-input>
-                          </el-form-item>
-                          <el-form-item>
-                            <el-input v-model="userNo" placeholder="用户编号" clearable></el-input>
-                          </el-form-item>
-                        </el-col>
-                    </el-row> -->
                 </el-main>
             </el-container>
         </el-container>
@@ -75,11 +65,6 @@
           label: 'label'
         }
       };
-    },
-    methods: {
-      handleNodeClick(data) {
-        // console.log(data);
-      }
     }
   };
 </script>
@@ -87,6 +72,7 @@
   .el-header{
     background-color: #008eea;
     text-align: center;
+    padding:0px 0px !important;
   }
   .header-logo{
     display:inline-block;
@@ -129,9 +115,7 @@
     border-right: 1px solid #e6e6e6;
   }
   .el-main {
-    background-color: #E9EEF3;
     color: #333;
-    text-align: center;
   }
   .el-container {
     margin-bottom: 40px;
