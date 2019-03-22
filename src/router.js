@@ -31,9 +31,9 @@ const router = new Router({
         {
           path: '/version',
           component: Version,
-          children: [
-            { path: '', meta: { title: '版本说明' }, component: r => require.ensure([], () => r(require('../VERSION.md'))) }
-          ]
+          // children: [
+          //   { path: '', meta: { title: '版本说明' }, component: r => require.ensure([], () => r(require('../VERSION.md'))) }
+          // ]
         }
       ]
     }

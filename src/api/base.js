@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-axios.defaults.baseURL = process.env.NODE_ENV === 'production' ? '/api/' : '//cgtadmin.tuandai888.com/api/'
+axios.defaults.baseURL = process.env.NODE_ENV === 'production' ? '/api/' : '/api/'// '//cgtadmin.tuandai888.com/api/'
 // axios.defaults.timeout = 3000
 
 /**

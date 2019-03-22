@@ -24,14 +24,14 @@
     },
     computed: {
       navActive: function () {
-        return this.$store.state.dashboard.navActive
+        //return this.$store.state.dashboard.navActive
       },
       navOpeneds: function () {
-        return this.$store.state.dashboard.navOpeneds
+        //return this.$store.state.dashboard.navOpeneds
       }
     },
     created () {
-      this.loadNav()
+     // this.loadNav()
       // console.log(this.$route)
       // console.log(this.$router)
     },
@@ -46,16 +46,16 @@
        * @returns {Promise<void>}
        */
       async loadNav () {
-        let { data } = await loadNav()
-        if (data.code === 200) {
-          this.list = data.data
-        } else if (data.code === 401 || data.code === -100) {
-          redirectLogin(this, data.msg)
-        } else {
-          this.$notify.error({
-            message: data.msg
-          })
-        }
+        // let { data } = await loadNav()
+        // if (data.code === 200) {
+        //   this.list = data.data
+        // } else if (data.code === 401 || data.code === -100) {
+        //   redirectLogin(this, data.msg)
+        // } else {
+        //   this.$notify.error({
+        //     message: data.msg
+        //   })
+        // }
       },
       /**
        * 保存菜单展开和激活状态
@@ -70,10 +70,10 @@
        * 加载sessionStorage中保存的菜单展开数据
        */
       loadNavStatus () {
-        this.$store.commit('changeNavStatus', {
-          navActive: sessionStorage.getItem('navActive'),
-          navOpeneds: sessionStorage.getItem('navOpeneds').split(',')
-        })
+        // this.$store.commit('changeNavStatus', {
+        //   navActive: sessionStorage.getItem('navActive'),
+        //   navOpeneds: sessionStorage.getItem('navOpeneds').split(',')
+        // })
       }
     }
   }

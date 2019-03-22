@@ -34,11 +34,14 @@
       }
     },
     beforeCreate () {
-      axios.defaults.headers.common['token'] = this.$Cookies.get('token')
+     // axios.defaults.headers.common['token'] = this.$Cookies.get('token')
     }
   }
 </script>
 
 <style scoped>
-  .el-header{padding:0px 0px !important;}
+  .el-main{
+    margin-top:72px;
+    margin-left:200px;
+  }
 </style>

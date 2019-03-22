@@ -1,0 +1,69 @@
+{
+    "users": [
+      {
+        "serial": 1,
+        "companynumber": "paisheng",
+        "companyname": "派生科技集团股份有限公司",
+        "sorting": 1,
+        "state": 1,
+        "record": "粤ICP12062436号-1",
+        "domain":"paisheng.com",
+        "describe":"派生公司",
+        "operationpeople":"admin",
+        "operationtime":"2019-3-21"
+      },
+      {
+        "serial": 2,
+        "companynumber": "paisheng",
+        "companyname": "派生科技集团股份有限公司",
+        "sorting": 2,
+        "state": 2,
+        "record": "粤ICP12062436号-2",
+        "domain":"paisheng.com",
+        "describe":"派生公司",
+        "operationpeople":"admin",
+        "operationtime":"2019-3-23"
+      },
+      {
+        "serial": 3,
+        "companynumber": "paisheng",
+        "companyname": "派生科技集团股份有限公司",
+        "sorting": 3,
+        "state": 2,
+        "record": "粤ICP12062436号-2",
+        "domain":"paisheng.com",
+        "describe":"派生公司",
+        "operationpeople":"admin",
+        "operationtime":"2019-3-23"
+      },
+      {
+        "serial": 4,
+        "companynumber": "paisheng",
+        "companyname": "派生科技集团股份有限公司",
+        "sorting": 4,
+        "state": 1,
+        "record": "粤ICP12062436号-2",
+        "domain":"paisheng.com",
+        "describe":"派生公司",
+        "operationpeople":"admin",
+        "operationtime":"2019-3-23"
+      }
+    ],
+    "companies": [
+      {
+        "id": 1,
+        "name": "Apple",
+        "description": "Apple lalala!"
+      },
+      {
+        "id": 2,
+        "name": "Microsoft",
+        "description": "Microsoft lalala!"
+      },
+      {
+        "id": 3,
+        "name": "Google",
+        "description": "Google lalala!"
+      }
+    ]
+  }
